@@ -7,17 +7,16 @@ public class PRAK103_2310817210029_Putra_Whyra_Pratama_S {
         int angkaPertama = input.nextInt();
         
         int hitung = 0;
-        int number = angkaPertama;
         
         do {
-            if (number % 2 != 0) {
-                System.out.print(number);
+            if (angkaPertama % 2 != 0) {
+                System.out.print(angkaPertama);
                 hitung++;
                 if (hitung < N) {
                     System.out.print(", ");
                 }
             }
-            number++;
+            angkaPertama++;
         } while (hitung < N);
         
         input.close();
