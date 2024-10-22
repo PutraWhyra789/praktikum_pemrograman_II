@@ -19,8 +19,7 @@ public class Buah {
 
     public double getTotalDiskon() {
         double diskonPer4Kg = 0.02;
-        return (int) (jumlahBeli / 4) * diskonPer4Kg * getHargaSebelumDiskon();
-        
+        return Math.floor(jumlahBeli / 4) * diskonPer4Kg * hargaPerSatuan * 4;
     }
 
     public double getHargaSetelahDiskon() {
