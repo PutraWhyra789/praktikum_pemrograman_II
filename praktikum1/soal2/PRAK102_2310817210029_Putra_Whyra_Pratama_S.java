@@ -1,3 +1,5 @@
+package praktikum1.soal2;
+
 import java.util.Scanner;
 
 public class PRAK102_2310817210029_Putra_Whyra_Pratama_S {
