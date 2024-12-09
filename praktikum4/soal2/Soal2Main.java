@@ -11,7 +11,7 @@ public class Soal2Main {
         System.out.println("2 = Anjing");
         System.out.print("Masukkan pilihan: ");
         int pilihan = scanner.nextInt();
-        scanner.nextLine(); // Konsumsi newline
+        scanner.nextLine();
 
         if (pilihan == 1) {
             System.out.print("Nama hewan peliharaan: ");
@@ -30,7 +30,7 @@ public class Soal2Main {
             String ras = scanner.nextLine();
             System.out.print("Warna Bulu: ");
             String warnaBulu = scanner.nextLine();
-            System.out.print("Kemampuan (pisahkan dengan koma): ");
+            System.out.print("Kemampuan: ");
             String kemampuan = scanner.nextLine();
 
             Anjing anjing = new Anjing(nama, ras, warnaBulu, kemampuan);
