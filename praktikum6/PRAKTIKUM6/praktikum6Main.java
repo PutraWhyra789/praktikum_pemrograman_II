@@ -8,16 +8,16 @@ import java.util.List;
 public class praktikum6Main {
     public static void main(String[] args) {
         List<Mahasiswa> daftarMahasiswa = new ArrayList<>();
-        daftarMahasiswa.add(new Mahasiswa(1, "200101001", "Budi Santoso"));
-        daftarMahasiswa.add(new Mahasiswa(2, "200101002", "Ani Kartika"));
-        daftarMahasiswa.add(new Mahasiswa(3, "200101003", "Citra Maharani"));
-        daftarMahasiswa.add(new Mahasiswa(4, "200101004", "Doni Pratama"));
-        daftarMahasiswa.add(new Mahasiswa(5, "200101005", "Eka Saputra"));
-        daftarMahasiswa.add(new Mahasiswa(6, "200101006", "Fajar Hidayat"));
-        daftarMahasiswa.add(new Mahasiswa(7, "200101007", "Gita Amalia"));
-        daftarMahasiswa.add(new Mahasiswa(8, "200101008", "Hendra Wijaya"));
-        daftarMahasiswa.add(new Mahasiswa(9, "200101009", "Indah Permata"));
-        daftarMahasiswa.add(new Mahasiswa(10, "200101010", "Joko Sugiarto"));
+        daftarMahasiswa.add(new Mahasiswa(1, "2310817210001", "Galih CPP"));
+        daftarMahasiswa.add(new Mahasiswa(2, "2310817210002", "Dika Tanjung"));
+        daftarMahasiswa.add(new Mahasiswa(3, "2310817210003", "Jovan Kamboja"));
+        daftarMahasiswa.add(new Mahasiswa(4, "2310817210004", "Hasbi Batu Mandi"));
+        daftarMahasiswa.add(new Mahasiswa(5, "2310817210005", "Randy Okarun"));
+        daftarMahasiswa.add(new Mahasiswa(6, "2310817210006", "Damar Python"));
+        daftarMahasiswa.add(new Mahasiswa(7, "2310817210007", "Daffa Kewer"));
+        daftarMahasiswa.add(new Mahasiswa(8, "2310817210008", "Rizky Geo"));
+        daftarMahasiswa.add(new Mahasiswa(9, "2310817210009", "Putra Wahyu"));
+        daftarMahasiswa.add(new Mahasiswa(10, "2310817210010", "Yudi Tekken"));
 
         String[] kolom = {"NIM", "Nama"};
         String[][] data = new String[daftarMahasiswa.size()][2];
